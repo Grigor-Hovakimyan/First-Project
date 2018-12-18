@@ -1,0 +1,835 @@
+/*<header> style*/
+
+#myWord{
+    font-family: serif;
+    font-size: 120%;
+    letter-spacing: 0.05cm;
+    color: #aeaeae;
+}
+
+#header{
+    background-image: url("Images/bonfirenight_ld.jpg");
+    width: 101%;
+
+}
+#myVideo{
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+}
+header{
+    position: relative;
+    margin: -1%;
+    /*margin-top: -10%;*/
+    background-color: black;
+    height: 880px;
+z-index: 5;
+    padding-top: 5%;
+
+}
+#textOfHeader{
+    text-align: left;
+    width: 75%;
+    margin: 10% 0% 0% 12%;
+    font-size: 30px;
+}
+#textOfHeader h5{
+    color: darkturquoise;
+    font-family: "montserrat-medium", sans-serif;
+}
+#textOfHeader h1{
+    color: #b1b1b1;
+    font-family: "montserrat-medium", sans-serif;
+}
+
+.menuLogo{
+    position: fixed;
+    top: 3%;
+    right: 6%;
+    cursor: pointer;
+    color: darkturquoise;
+    font-size: 20px;
+    letter-spacing: .1cm;
+    text-shadow: 0px -3px 10px black;
+    font-family: "montserrat-medium", sans-serif;
+}
+.menuLogo:hover{
+    color: white;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+.menu_list{
+    display: none;
+    position: fixed;
+    width: 250px;
+    height: 640px;
+    margin:0%;
+    text-align: left;
+    padding:0% 2% 2% 2%;
+    background: #272727;
+    top: 0%;
+    right: 0%;
+    z-index: 15;
+}
+#navigation i{
+    cursor: pointer;
+}
+#navigation i:hover{
+    color: #00c3c6;
+}
+#iconsOfMenu{
+    margin-left: -10%;
+}
+#iconsOfMenu li{
+    display: inline;
+}
+#iconsOfMenu li a{
+    text-align: left;
+    font-size: 25px;
+    margin: 0% 2% 0% 0%;
+    color: gray;
+}
+#iconsOfMenu li a:hover{
+    color: white;
+}
+#listOfMenu li{
+    list-style: none;
+    margin: 3% 0% 0% -17%;
+}
+#listOfMenu li a{
+    margin: 0%;
+    text-decoration: none;
+    font-size: 32px;
+    color: #dadada;
+}
+#textOfMenuList{
+    margin-top: 5%;
+    text-align: left;
+    font-size: 20px;
+    color: gray;
+}
+
+
+#iconsOfHeader{position: absolute;
+    list-style: none;
+    top: 23%;
+    right: 7%;
+
+}
+#iconsOfHeader li {
+    padding: 5%;
+    text-align: center;
+    margin: 0% 0% 50% 0%;
+    font-size: 28px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: #1b1b1b;
+}
+
+#iconsOfHeader li a{
+    color: white;
+    font-size: 25px;
+}
+
+
+#download_about{
+    position: absolute;
+    bottom: 19%;
+    width: 800px;
+    word-spacing: 15px;
+    margin: 0% 0% -1% 13%;
+
+}
+#download,#moreAboutMe{
+    text-align: center;
+    padding: 2%;
+    font-size: 30px;
+    border: 2px solid #656565;
+    color: #b0b0b0;
+    background: rgb(23, 23, 23);
+    text-decoration: none;
+}
+#download:hover,#moreAboutMe:hover{
+    background: #616161;
+    color: #00c3c6;
+}
+#iconMusic{
+    position: absolute;
+    top: 26%;
+    right: 10%;
+    text-decoration: none;
+    color: darkturquoise;
+    display: none;
+}
+#iconFacebook{
+    position: absolute;
+    top: 32%;
+    right: 10%;
+    text-decoration: none;
+    color: darkturquoise;
+    display: none;
+}
+#iconTwitter{
+    position: absolute;
+    top: 37%;
+    right: 10%;
+    text-decoration: none;
+    color: darkturquoise;
+    display: none;
+}
+#iconVk{
+    position: absolute;
+    top: 43%;
+    right: 10%;
+    text-decoration: none;
+    color: darkturquoise;
+    display: none;
+}
+#iconLinkedin {
+    position: absolute;
+    top: 49%;
+    right: 10%;
+    text-decoration: none;
+    color: darkturquoise;
+    display: none;
+}
+#iconGithub {
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    text-decoration: none;
+    color: darkturquoise;
+    display: none;
+}
+
+#scrollDown{
+    position: absolute;
+    right: 10%;
+    bottom: 13%;
+    text-decoration: none;
+    font-family: "montserrat-medium", sans-serif;
+    color: gray;
+    font-size: 13px;
+    letter-spacing: .1cm;
+}
+
+#headerFoot{
+    position: absolute;
+    right: 6%;
+    bottom: 0%;
+    width: 0px;
+    height: 120px;
+    border: 1px solid darkturquoise;
+    color: darkturquoise;
+}
+
+
+/* <section> About Style */
+body{
+    margin: 0%;
+
+}
+#aboutSection{
+    text-align: center;
+    padding-top: 10%;
+    margin: 0%;
+    background: #008080;
+    height: 800px;
+
+}
+#helloThere{
+    font-family: sans-serif;
+    letter-spacing: 0.1cm;
+
+}
+#imGrigor{
+    font-family: sans-serif;
+    font-size: 60px;
+    color: white;
+    margin-top: 0%;
+}
+#aboutHr{
+    width: 450px;
+    border: 0.5px dotted #9e9e9e;
+}
+#aboutText{
+    font-family: serif;
+    text-align: center;
+    width: 950px;
+    margin: 3% 0% 0% 17%;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.76);
+    line-break: inherit;
+}
+#award{
+    width: 300px;
+    position: absolute;
+    left: 8%;
+    margin: 5% 0% 0% 0%;
+    border-right: 1px solid #a6a6a6;
+}
+#awardCount{
+    font-family: fantasy;
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0% 0% 0% 0%;
+}
+#awardText{
+    font-family: monospace;
+    font-size: 20px;
+    margin: 5% 0% 0% 0%;
+}
+
+#coffee{
+    width: 300px;
+    position: absolute;
+    left: 30%;
+    /*top: 0%;*/
+    margin: 5% 0% 0% 0%;
+    border-right: 1px solid #a6a6a6;
+}
+#coffeeCount{
+    font-family: fantasy;
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0% 0% 0% 0%;
+}
+#coffeeText{
+    font-family: monospace;
+    font-size: 20px;
+    margin: 5% 0% 0% 0%;
+}
+
+
+#project{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    margin: 5% 0% 0% 0%;
+    border-right: 1px solid #a6a6a6;
+}
+#projectCount{
+    font-family: fantasy;
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0% 0% 0% 0%;
+}
+#projectText{
+    font-family: monospace;
+    font-size: 20px;
+    margin: 5% 0% 0% 0%;
+}
+
+
+
+#client{
+    width: 300px;
+    position: absolute;
+    left: 70%;
+    /*top: 0%;*/
+    margin: 5% 0% 0% 0%;
+}
+#clientCount{
+    font-family: fantasy;
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0% 0% 0% 0%;
+}
+#clientText{
+    font-family: monospace;
+    font-size: 20px;
+    margin: 5% 0% 0% 0%;
+}
+#aboutTop{
+    position: absolute;
+    right: 6.1%;
+    bottom: -60%;
+    width: 0px;
+    height: 120px;
+    border: 1px solid black;
+
+}
+
+
+/** <section> Services style **/
+
+#servicesDiv{
+    text-align: center;
+    font-family:  "montserrat-medium", sans-serif;
+    width: 55%;
+    font-size: 200%;
+    margin: 10% 10% 2% 20%;
+}
+#services1{
+    margin-bottom: 0%;
+    color: teal;
+    font-family: serif;
+   font-size: 80%;
+}
+#services2{
+    margin-top: 0%;
+}
+#servicesHr{
+    width: 60%;
+}
+
+
+.flex1,.flex2,.flex3{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+
+}
+#services3 p{
+    color: teal;
+    font-size: 120%;
+    width: 110%;
+
+}
+#services3 h2{
+    font-family: sans-serif;
+    font-size: 180%;
+}
+#services3 span i{
+    font-size: 300%;
+    color: teal;
+}
+#brandIcon,#illustrationIcon,#marketingIcon,#webIcon,#packagingIcon,#developmentIcon{
+    margin-right: 3%;
+    margin-top: 2%;
+}
+#brandText,#illustrationText,#marketingText,#webText,#packagingText,#developmentText{
+    width: 40%;
+}
+#brand,#illustration,#marketing,#web,#packaging,#development{
+    display: flex;
+}
+
+#illustration{
+    margin-left: -30%;
+}
+#web{
+    margin-left: -7%;
+}
+#development{
+    margin-left: 13%;
+}
+.flex3,.flex2,.flex1{
+    margin-left: 15%;
+}
+
+/** <section> Works style **/
+#worksText{
+    margin-top: 8%;
+    text-align: center;
+    padding-top: 10%;
+    background-color: #121212;
+}
+#worksText1{
+    font-family: sans-serif;
+    color: teal;
+    font-size: 120%;
+    letter-spacing: 0.03cm;
+}
+#worksText2{
+    font-family: sans-serif;
+    color: white;
+    font-size: 300%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+#worksTextHr{
+    border: 0.5px solid #9a9a9a;
+    width: 50%;
+}
+
+/*----------*/
+
+#images {
+    margin: -7% 10% 10% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.img1  {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.img1 .container  .image {
+    margin-top: 8px;
+    vertical-align: middle;
+
+}
+
+
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    /*border: 4px solid #191919;*/
+    background:linear-gradient(#00c9cc, #009ea1, #00cccf);
+    width: 80%;
+    height: 80%;
+
+}
+
+.container:hover .image {
+    opacity: 0.5;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: #edfffc;
+    font-size: 150%;
+    margin-top: 20%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .img1 {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .img1 {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* <section> Clients style */
+
+
+
+
+#clientsSection{
+    margin: 0%;
+    background: lightgray;
+}
+#clientsText{
+    margin-top: 8%;
+    text-align: center;
+    padding-top: 10%;
+}
+#clientsText1{
+    font-family: sans-serif;
+    color: teal;
+    font-size: 100%;
+    letter-spacing: 0.03cm;
+}
+#clientsText2{
+    font-family: sans-serif;
+    color: black;
+    font-size: 300%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+.clientsSlide1,.clientsSlide2,.clientsSlide3{
+    display: flex;
+    /*width: 100%;*/
+    margin: 0% 0% 0% 15%;
+}
+.clientsSlide1 img,.clientsSlide2 img,.clientsSlide3 img{
+width: 10%;
+    height: 10%;
+    margin: 0% 0% 0% 2%;
+
+}
+.clientsSlide1 img:hover,.clientsSlide2 img:hover,.clientsSlide3 img:hover{
+    filter:brightness(120%);
+}
+.point {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 1%;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.point:hover {
+    background-color: teal;
+
+}
+#clientsHr{
+   margin-top: 4%;
+    margin-bottom: 4%;
+    border: 0.5px solid #9a9a9a;
+    width: 50%;
+}
+
+.clientsComment{
+    position: relative;
+
+}
+
+.clientsCommentSlides{
+    width: 70%;
+    text-align: center;
+    padding-left: 15%;
+    display: none;
+
+}
+
+.clientsCommentText{
+    font-family: "lora-regular", serif;
+    font-size: 200%;
+    line-height: 1.765;
+    color: gray;
+}
+.clientsCommentText:hover{
+    color: teal;
+}
+.clientsCommentImage{
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+}
+.clientsCommentName{
+    font-family: sans-serif;
+}
+.clientsCommentName1{
+    font-family: inherit;
+}
+.clientsCommentLeft,.clientsCommentRight{
+    font-size: 300%;
+    width: 50%;
+    height: 50%;
+    color: darkslategray;
+}
+.clientsCommentLeft:hover,.clientsCommentRight:hover{
+    color: teal;
+    cursor: pointer;
+}
+.clientsCommentLeft i{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+.clientsCommentRight {
+    margin: 10% 0% 0% 0%;
+}
+.clientsCommentRight i{
+    position: absolute;
+    top: 10%;
+    right: 6%;
+}
+
+.clientsFooter{
+    width: 2px;
+    height: 150px;
+    background: teal;
+    margin-left: 50%;
+}
+
+/*.clientsSlide2,.clientsSlide3{*/
+    /*display: none;*/
+/*}*/
+
+/* <section> Contact style */
+.contactFooter{
+    width: 2px;
+    height: 150px;
+    background: teal;
+    margin-left: 50%;
+    margin-bottom: 0%;
+}
+#contactSection{
+    background: #1d1d1d;
+    margin-top: 0%;
+}
+#contactText{
+    margin-top: -7%;
+    text-align: center;
+    padding-top: 10%;
+}
+#contactText1{
+    font-family: sans-serif;
+    color: teal;
+    font-size: 100%;
+    letter-spacing: 0.03cm;
+}
+#contactText2{
+    font-family: sans-serif;
+    color: white;
+    font-size: 300%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+#contactForm{
+    background: #191919;
+    margin-right: 0%;
+    padding-top:2%;
+    padding-bottom: 2%;
+
+}
+#contactForm fieldset{
+    width: 150%;
+    border: none;
+}
+.contactInput{
+    border-top:0px;
+    border-right: 0px;
+    border-bottom: 1px solid #8f8f8f;
+    border-left: 0px;
+    width: 55%;
+    height: 50%;
+    background: #191919;
+    padding: 3%;
+    color: teal;
+}
+.contactSubmit{
+    width: 60%;
+    height: 50px;
+    background: teal;
+    color: white;
+letter-spacing: 2px;
+    border: none;
+}
+#contactInfoIcon{
+    margin-left: -16%;
+}
+#contactInfoIcon li{
+    display: inline;
+}
+#contactInfoIcon li a{
+    text-align: left;
+    font-size: 20px;
+    margin: 0% 2% 0% 0%;
+    color: white;
+}
+#contactInfoIcon li a:hover{
+    color: teal;
+}
+.contactInfo{
+    color: white;
+    background: #1b1b1b;
+    padding: 0% 5% 5% 5%;
+    margin-left: 0%;
+}
+.contactInfoText{
+    color: teal;
+}
+.contactInfoText1{
+    color: gray;
+}
+.contactInfoText2{
+    color: gray;
+    text-decoration: none;
+}
+.contactInfoText2:hover{
+    color: teal;
+}
+#info{
+    display: flex;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+/* Footer Style*/
+
+footer{
+    margin-top: -2%;
+    width: 100%;
+    height: 500px;
+    background: #0e0e0e;
+}
+
+.footerText{
+    font-family: sans-serif;
+    color: teal;
+    font-size: 150%;
+}
+.footerText1{
+    font-family: inherit;
+    color: #d1d1d1;
+}
+footer label{
+    font-size: 150%;
+}
+footer  input{
+    background: #0a0a0a;
+    border: none;
+    color: white;
+    font-size: 130%;
+    padding: 3%;
+    margin-top: -5%;
+
+}
+.footerSubmit{
+    background: teal;
+    margin-left: -1%;
+}
+.footerSpan i{
+    color: white;
+    font-size: 50px;
+
+}
+.footerCopy{
+    color: #696969;
+margin-top: 35%;
+
+}
+.footer{
+    float: right;
+}
+.footerH3{
+    text-align: center;
+    font-family: "Times LatRus";
+    color: #696969;
+    font-size: 150%;
+    width: 40%;
+   padding-top: 15%;
+    padding-left: 5%;
+}

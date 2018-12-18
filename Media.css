@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px){
+    #textOfHeader h1{
+        font-size: 130%;
+    }
+#download_about{
+    display: grid;
+    width: 70%;
+}
+#download_about a{
+    margin-top: 5%;
+}
+#header{
+    background-image: url("Images/media-bonfire.jpg");
+}
+#aboutSection{
+    height: 1700px;
+}
+#aboutText{
+    width: 70%;
+}
+#award,#coffee,#project,#client{
+    position: relative;
+    left: 20%;
+    border-right:0px ;
+}
+#info{
+    display: block;
+}
+footer{
+    height: 750px;
+    margin-top: -5%;
+}
+.footerH3{
+    width: 80%;
+}
+footer div{
+    padding-left: 5%;
+}
+.footerCopy{
+    margin-top: 15%;
+}
+}
+@media screen and (max-width: 450px){
+    #textOfHeader h1{
+        font-size: 110%;
+    }
+    #aboutSection{
+        height: 1900px;
+    }
+    .flex1,.flex2,.flex3{
+        display: block;
+    }
+    #illustration{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 770px){
+    #download_about{
+        bottom: 5%;
+    }
+    #aboutText{
+        margin-left: 2%;
+        width: 700px;
+    }
+    #award,#coffee,#project,#client{
+        border-right: 0px;
+    }
+    #images{
+        margin-left: 30%;
+    }
+    .footerH3{
+        display: none;
+    }
+
+}
